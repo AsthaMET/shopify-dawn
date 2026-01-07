@@ -133,6 +133,16 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
+
+              {% assign secondary_menu = linklists['secondary-menu'] %}
+
+              {% if secondary_menu and secondary_menu.links.size > 0 %}
+                <nav class="header-secondary-menu">
+                  {% for link in secondary_menu.links %}
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                  {% endfor %}
+                </nav>
+              {% endif %}
             </ul>
           </nav>
           <div class="menu-drawer__utility-links">

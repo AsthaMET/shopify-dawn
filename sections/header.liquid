@@ -77,9 +77,6 @@
 </style>
 
 {%- style -%}
-  .header {
-    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
-  }
 
   .section-header {
     position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
@@ -222,6 +219,16 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
+
+    {% assign secondary_menu = linklists['secondary-menu'] %}
+
+    {% if secondary_menu and secondary_menu.links.size > 0 %}
+      <nav class="header-secondary-menu screen:hidden min-[989px]:block">
+        {% for link in secondary_menu.links %}
+          <a href="{{ link.url }}" class="header__menu-item">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    {% endif %}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
       <div class="desktop-localization-wrapper">

@@ -1,5 +1,62 @@
 @import 'tailwindcss';
 
+@theme {
+    --breakpoint-screen: 0px;
+    --breakpoint-2xs: 320px;
+    --breakpoint-xxs: 376px;
+
+    --font-assistant: "Assistant", sans-serif;
+}
+
+body {
+    @apply font-assistant;
+}
+.header-secondary-menu:focus {
+    @apply bg-[#121212];
+}
+.menu-drawer__menu-item,
+.menu-drawer__menu a {
+    @apply screen:px-13 min-[989px]:px-14 py-4.5 leading-9.5 text-[#121212];
+}
+.header-secondary-menu a {
+    @apply screen:text-[18px] min-[989px]:text-[16px] font-assistant;
+}
+.menu-drawer__menu .header-secondary-menu {
+    @apply flex screen:flex-col min-[989px]:flex-row;
+}
+.menu-drawer__menu li {
+    @apply mb-0;
+}
 .menu-drawer__menu-item {
     @apply py-2.75 px-8;
+}
+.header__active-menu-item{
+    @apply no-underline text-[#121212bf] font-assistant;
+}
+#HeaderMenu-jewelry:focus {
+    @apply underline;
+}
+.header__menu-item:hover .header__active-menu-item:hover {
+    @apply underline decoration-[0.2rem];
+}
+#HeaderDrawer-jewelry {
+    @apply text-[#121212] bg-[#1212120a];
+}
+.menu-drawer summary.menu-drawer__menu-item {
+    @apply bg-white;
+}
+.menu-drawer summary.menu-drawer__menu-item:focus {
+    @apply bg-[#1212120a];
+}
+.list-menu__item{
+    @apply bg-white;
+}
+.menu-drawer__close-button:focus {
+    @apply bg-[#1212120a];
+}
+.rich-text__buttons .button {
+    @apply px-5 py-2.5;
+}
+.banner__buttons a {
+    @apply px-[31.5px] py-[13.5px];
 }

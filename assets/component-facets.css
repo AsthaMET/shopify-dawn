@@ -984,7 +984,7 @@ details.menu-opening .mobile-facets__close .svg-wrapper {
 }
 
 .js details[open].menu-opening > .mobile-facets__submenu {
-  transform: translateX(0);
+  transform: translateX(80);
   visibility: visible;
 }
 
