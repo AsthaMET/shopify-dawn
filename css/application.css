@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+.menu-drawer__menu-item {
+    @apply py-2.75 px-8;
+}
