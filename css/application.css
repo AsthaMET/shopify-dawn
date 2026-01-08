@@ -60,9 +60,17 @@ body {
 .rich-text__buttons .button {
     @apply px-5 py-2.5;
 }
+.rich-text__blocks .rich-text__buttons button {
+    @apply hover:bg-gray-800;
+}
 .banner__buttons a {
     @apply px-[31.5px] py-[13.5px];
 }
 .rich-text__blocks {
     @apply text-left;
+}
+.button,
+.shopify-challenge__button,
+.customer button {
+    @apply hover:bg-gray-500;
 }
