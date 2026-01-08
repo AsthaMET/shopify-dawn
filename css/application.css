@@ -74,3 +74,9 @@ body {
 .customer button {
     @apply hover:bg-gray-500;
 }
+.product-form__submit {
+    @apply py-[10px];
+}
+.button--primary {
+    @apply p-4;
+}
