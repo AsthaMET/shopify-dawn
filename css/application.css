@@ -19,7 +19,7 @@ body {
     @apply screen:px-13 min-[989px]:px-14 py-4.5 leading-9.5 text-[#121212];
 }
 .header-secondary-menu a {
-    @apply screen:text-[18px] min-[989px]:text-[16px] font-assistant;
+    @apply screen:text-[18px] min-[989px]:text-[16px];
 }
 .menu-drawer__menu .header-secondary-menu {
     @apply flex screen:flex-col min-[989px]:flex-row;
@@ -31,7 +31,7 @@ body {
     @apply py-2.75 px-8;
 }
 .header__active-menu-item{
-    @apply no-underline text-[#121212bf] font-assistant;
+    @apply no-underline text-[#121212bf];
 }
 #HeaderMenu-jewelry:focus {
     @apply underline;
