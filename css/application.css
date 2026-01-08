@@ -36,6 +36,9 @@ body {
 #HeaderMenu-jewelry:focus {
     @apply underline;
 }
+.header__heading-logo-wrapper {
+    @apply screen:max-w-[130px] min-[1099px]:max-w-[160px];
+}   
 .header__menu-item:hover .header__active-menu-item:hover {
     @apply underline decoration-[0.2rem];
 }
@@ -59,4 +62,7 @@ body {
 }
 .banner__buttons a {
     @apply px-[31.5px] py-[13.5px];
+}
+.rich-text__blocks {
+    @apply text-left;
 }

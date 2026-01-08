@@ -77,7 +77,6 @@
 </style>
 
 {%- style -%}
-
   .section-header {
     position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
@@ -225,7 +224,9 @@
     {% if secondary_menu and secondary_menu.links.size > 0 %}
       <nav class="header-secondary-menu screen:hidden min-[989px]:block">
         {% for link in secondary_menu.links %}
-          <a href="{{ link.url }}" class="header__menu-item">{{ link.title }}</a>
+          <a href="{{ link.url }}" class="header__menu-item">
+            <span class="inline-block leading-[20.79px]">{{ link.title }}</span></a
+          >
         {% endfor %}
       </nav>
     {% endif %}
