@@ -6,10 +6,15 @@
     --breakpoint-xxs: 376px;
 
     --font-assistant: "Assistant", sans-serif;
+    --font-opensens: "Open Sans", sans-serif;
+    --font-mulish: "Mulish", sans-serif;
 }
 
 body {
     @apply font-assistant;
+}
+.utility-bar {
+    @apply bg-[#fdfbf6];
 }
 .header-secondary-menu:focus {
     @apply bg-[#121212];
@@ -30,6 +35,9 @@ body {
 .menu-drawer__menu-item {
     @apply py-2.75 px-8;
 }
+/* .image-with-text-section .page-width {
+    @apply p-[15px];
+} */
 .header__active-menu-item{
     @apply no-underline text-[#121212bf];
 }
@@ -79,4 +87,13 @@ body {
 }
 .button--primary {
     @apply p-4;
+}
+.product__media .media .media--transparent img {
+    @apply object-cover;
+}
+.image-with-text__text {
+    @apply text-[18px];
+}
+.image-with-text__heading {
+    @apply text-[30px];
 }

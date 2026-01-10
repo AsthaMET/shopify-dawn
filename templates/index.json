@@ -9,71 +9,53 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "image_with_text_B34mQD": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "heading_ExcxNN": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "PEACEMINUSONE",
+            "heading_size": "h1"
           }
         },
-        "button": {
-          "type": "buttons",
+        "text_preCMf": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>G-DRAGON’s iconic daisy motif, a symbol of constant reinvention and creative bloom.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_j97gXC": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading_ExcxNN",
+        "text_preCMf",
+        "button_j97gXC"
       ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "enable-background": true,
+        "enable-background-image": "shopify://shop_images/hero-img.webp",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "rich_text_jWE43X": {
@@ -89,7 +71,7 @@
         "text_BMiMtG": {
           "type": "text",
           "settings": {
-            "text": "<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>"
+            "text": "<p>\"Founded in 2018 by lifelong friends Sarah & Mark,<a href=\"https://www.google.com/search?q=Artisan+Home+Decor&rlz=1C1SQJL_enAE1066IN1070&oq=about+us+para&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCTY0ODRqMGoxNagCCLACAfEFveDLf9rEW3U&sourceid=chrome&ie=UTF-8&mstk=AUtExfDPcWWVjIO5FJWUZqEnIwR8SdmoCiT18Fo7rOw5y8VJwR5IlioEZX3QJU5Xy5YzdKz_f-Wahw7XjvDsmROkWBJDF7HYZ05hzC6LNLLbaZ1uSk4odBd81DeZ8HjvIw2jAARWgVXPMeN5gfikRskxSWNI9dy4yLKf6BhKeA5tCj6xaEg&csui=3&ved=2ahUKEwjsq62vy_uRAxUURmcHHQieG_EQgK4QegQIBRAB\">Artisan Home Decor</a>began with a simple mission: to bring handcrafted, sustainable beauty into every home. We noticed a gap for unique, ethically-sourced decor that told a story, so we partnered directly with global artisans to create unique pieces you won't find anywhere else. From our first hand-woven basket to our latest ceramic collection, we're dedicated to fair wages, environmental stewardship, and helping you create a space that truly reflects you.\"</p>"
           }
         },
         "button_DRzMFt": {
@@ -99,7 +81,7 @@
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "",
+            "button_link_2": "shopify://pages/contact",
             "button_style_secondary_2": false
           }
         },
@@ -110,7 +92,7 @@
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "",
+            "button_link_2": "shopify://pages/contact",
             "button_style_secondary_2": false
           }
         }
@@ -130,11 +112,201 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "slideshow_mqnQXG": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_TH7xb7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/tree2.avif",
+            "image_overlay_opacity": 0,
+            "heading": "Slide 1",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify://collections/womans-ware",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "top-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_CDwxGF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/tree.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Slide 2",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "top-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_TH7xb7",
+        "slide_CDwxGF"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_product_kYWPL4": {
+      "type": "featured-product",
+      "blocks": {
+        "text_EwPVTc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_9rRPnq": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_JMHFtD": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_y9BxFd": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_3J9jx4": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_4RhRQY": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_m7Jh3e": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_EwPVTc",
+        "title_9rRPnq",
+        "price_JMHFtD",
+        "variant_picker_y9BxFd",
+        "quantity_selector_3J9jx4",
+        "buy_buttons_4RhRQY",
+        "share_m7Jh3e"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "t-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_jRgfgh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_L4qUcn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_yKtybV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RDeUGW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_7tdGjB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_L4qUcn",
+        "collapsible_row_yKtybV",
+        "collapsible_row_RDeUGW",
+        "collapsible_row_7tdGjB"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection",
-    "rich_text_jWE43X"
+    "image_with_text_B34mQD",
+    "rich_text_jWE43X",
+    "slideshow_mqnQXG",
+    "featured_product_kYWPL4",
+    "collapsible_content_jRgfgh"
   ]
 }
